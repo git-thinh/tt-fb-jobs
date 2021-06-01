@@ -26,8 +26,21 @@ function __getLinks(v) {
     return [];
 }
 
+async function __pageNext() {
+    if (__pageNumber >= __pageMax) return;
+
+    __pageNumber++;
+    console.log('->[2] Scroll to next page = ', __pageNumber, __list.length, __links.length);
+    await m_page.evaluate('window.scrollBy(0, document.body.scrollHeight)');
+    //await m_page.evaluate(() => {
+    //    window.scrollBy(0, 0);
+    //    window.scrollBy(0, window.innerHeight);
+    //});
+}
+
+const __pageMax = 1;
 let m_browser, m_page;
-let __links = [], __list = [], __count = 0, __pageNumber = 1, __opening = false;
+let __links = [], __list = [], __count = 0, __pageNumber = 1, __pageOpening = false;
 const __url = 'https://www.facebook.com/jobs/';
 const __url2 = 'https://www.facebook.com/ajax/bulk-route-definitions/';
 (async () => {
@@ -40,19 +53,12 @@ const __url2 = 'https://www.facebook.com/ajax/bulk-route-definitions/';
         if (url_.startsWith(__url2)) {
             var v = await response.text();
             __list.push(v);
-            console.log('-->[0] ' + url_);
+            //console.log('-->[0] ' + url_);
+            __pageOpening = false;
         }
-        //console.log(await response.status());
     });
 
-    async function c(e) {
-        console.log('-->[3] Page loaded ...');
-        return e
-    }
-    m_page.on('load', () => console.log('Loaded!', m_page.url()));
-    m_page.on('domcontentloaded', () => console.log('dom even fired'));
-
-    __opening = true;
+    //__pageOpening = true;
     await m_page.goto(__url);
     //await m_page.screenshot({ path: 'screenshot.png' });
 
@@ -66,13 +72,14 @@ setInterval(async function () {
     const len = __list.length;
     if (len == 0) return;
 
-    if (__count >= len) {        
-        if (__pageNumber == 1) {
-            __pageNumber++;
-            console.log('->[2] Scroll to next page ', __pageNumber, len);
-            await m_page.evaluate(() => {
-                window.scrollBy(0, window.innerHeight);
-            });
+    if (__count >= len) {
+        if (__pageOpening == false) {
+            __pageOpening = true;
+            console.log('->[1] Complete page ', __pageNumber);
+            __pageNext();
+            if (__pageNumber >= __pageMax) {
+                console.log('->[5] Begin get data from links = ', __links.length);
+            }
         }
         return;
     }
@@ -82,7 +89,7 @@ setInterval(async function () {
     var urls = __getLinks(s);
     if (urls && urls.length > 0) {
         for (var i = 0; i < urls.length; i++) __links.push(urls[i]);
-        console.log('-->[1] ', __count, __links.length);
+        console.log('->[1] Links = ', __pageNumber, __count, __list.length, __links.length, __pageOpening);
     }
 }, 1000);
 
