@@ -40,7 +40,8 @@ async function __pageNext() {
 
 const __pageMax = 1;
 let m_browser, m_page;
-let __links = [], __list = [], __count = 0, __pageNumber = 1, __pageOpening = false;
+let __links = [], __list = [], __count = 0,
+    __pageType = 0, __pageNumber = 1, __pageOpening = false;
 const __url = 'https://www.facebook.com/jobs/';
 const __url2 = 'https://www.facebook.com/ajax/bulk-route-definitions/';
 (async () => {
@@ -49,18 +50,26 @@ const __url2 = 'https://www.facebook.com/ajax/bulk-route-definitions/';
     await m_page.setViewport({ width: 1366, height: 2000 });
 
     m_page.on('response', async response => {
-        const url_ = response.url();
-        if (url_.startsWith(__url2)) {
-            var v = await response.text();
-            __list.push(v);
-            //console.log('-->[0] ' + url_);
-            __pageOpening = false;
+        if (__pageType == 0) {
+            const url_ = response.url();
+            if (url_.startsWith(__url2)) {
+                var v = await response.text();
+                __list.push(v);
+                //console.log('-->[0] ' + url_);
+                __pageOpening = false;
+            }
+        }
+    });
+    m_page.on('load', async () => {
+        if (__pageType == 1) {
+            console.log("Loaded: " + m_page.url());
+            await m_page.screenshot({ path: '1.png' });
         }
     });
 
     //__pageOpening = true;
     await m_page.goto(__url);
-    //await m_page.screenshot({ path: 'screenshot.png' });
+    //await m_page.screenshot({ path: '0.png' });
 
     console.log('DONE ...');
 
@@ -68,6 +77,11 @@ const __url2 = 'https://www.facebook.com/ajax/bulk-route-definitions/';
 })();
 
 setInterval(async function () {
+    if (__pageType == 1) {
+
+        return;
+    }
+
     let s = '';
     const len = __list.length;
     if (len == 0) return;
@@ -77,8 +91,14 @@ setInterval(async function () {
             __pageOpening = true;
             console.log('->[1] Complete page ', __pageNumber);
             __pageNext();
+
             if (__pageNumber >= __pageMax) {
+                __pageType = 1;
                 console.log('->[5] Begin get data from links = ', __links.length);
+                var url = 'https://www.facebook.com' + __links.pop();
+                console.log(__links.length, url);
+
+                await m_page.goto(url);
             }
         }
         return;
