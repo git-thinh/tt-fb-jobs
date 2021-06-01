@@ -1,0 +1,3790 @@
+{
+  "payload": {
+    "payloads": {
+      "/jobs/category/restaurant-food-service": {
+        "error": false,
+        "result": {
+          "type": "route_definition",
+          "exports": {
+            "actorID": "0",
+            "rootView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                  "321819962599507"
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.066284179688,
+                  "longitude": 105.74340820312,
+                  "vanityPageId": null
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tracePolicy": "comet.jobs.browser",
+            "meta": {
+              "title": "Vi\u1ec7c l\u00e0m thu\u1ed9c h\u1ea1ng m\u1ee5c Nh\u00e0 h\u00e0ng & d\u1ecbch v\u1ee5 \u0103n u\u1ed1ng",
+              "accessory": null
+            },
+            "prefetchable": true,
+            "timeSpentConfig": {
+              "has_job_search_session_id": true
+            },
+            "hostableView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                  "321819962599507"
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.066284179688,
+                  "longitude": 105.74340820312,
+                  "vanityPageId": null
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tabKey": "jobs",
+            "productAttributionId": "977114232337111",
+            "canonicalUrl": null
+          },
+          "route_match_infos": [
+            {
+              "instanceParams": {
+                "categories": "restaurant-food-service",
+                "city_name": "category",
+                "job_types": null,
+                "keyword": null,
+                "max_wage": null,
+                "min_wage": null,
+                "notif_id": null,
+                "pinned_job_opening_id": null,
+                "radius": null,
+                "referer_mechanism": null,
+                "source": null,
+                "tab": null,
+                "waterfall_session_id": null,
+                "wage_currency": null,
+                "wage_type": null
+              },
+              "routeParams": {
+                "categories": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "city_name": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "job_types": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "keyword": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "max_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "min_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "notif_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "pinned_job_opening_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "radius": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "referer_mechanism": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "source": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "tab": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "waterfall_session_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "wage_currency": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "wage_type": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                }
+              },
+              "routePath": "/jobs/{?city_name}/{?categories}/{?job_types}/"
+            }
+          ]
+        }
+      },
+      "/jobs/category/agriculture": {
+        "error": false,
+        "result": {
+          "type": "route_definition",
+          "exports": {
+            "actorID": "0",
+            "rootView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                  "693794104645839"
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.066284179688,
+                  "longitude": 105.74340820312,
+                  "vanityPageId": null
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tracePolicy": "comet.jobs.browser",
+            "meta": {
+              "title": "Vi\u1ec7c l\u00e0m thu\u1ed9c h\u1ea1ng m\u1ee5c N\u00f4ng nghi\u1ec7p",
+              "accessory": null
+            },
+            "prefetchable": true,
+            "timeSpentConfig": {
+              "has_job_search_session_id": true
+            },
+            "hostableView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                  "693794104645839"
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.066284179688,
+                  "longitude": 105.74340820312,
+                  "vanityPageId": null
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tabKey": "jobs",
+            "productAttributionId": "977114232337111",
+            "canonicalUrl": null
+          },
+          "route_match_infos": [
+            {
+              "instanceParams": {
+                "categories": "agriculture",
+                "city_name": "category",
+                "job_types": null,
+                "keyword": null,
+                "max_wage": null,
+                "min_wage": null,
+                "notif_id": null,
+                "pinned_job_opening_id": null,
+                "radius": null,
+                "referer_mechanism": null,
+                "source": null,
+                "tab": null,
+                "waterfall_session_id": null,
+                "wage_currency": null,
+                "wage_type": null
+              },
+              "routeParams": {
+                "categories": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "city_name": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "job_types": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "keyword": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "max_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "min_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "notif_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "pinned_job_opening_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "radius": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "referer_mechanism": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "source": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "tab": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "waterfall_session_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "wage_currency": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "wage_type": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                }
+              },
+              "routePath": "/jobs/{?city_name}/{?categories}/{?job_types}/"
+            }
+          ]
+        }
+      },
+      "/jobs/category/legal": {
+        "error": false,
+        "result": {
+          "type": "route_definition",
+          "exports": {
+            "actorID": "0",
+            "rootView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                  "413926013022790"
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.066284179688,
+                  "longitude": 105.74340820312,
+                  "vanityPageId": null
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tracePolicy": "comet.jobs.browser",
+            "meta": {
+              "title": "Vi\u1ec7c l\u00e0m thu\u1ed9c h\u1ea1ng m\u1ee5c Ph\u00e1p l\u00fd",
+              "accessory": null
+            },
+            "prefetchable": true,
+            "timeSpentConfig": {
+              "has_job_search_session_id": true
+            },
+            "hostableView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                  "413926013022790"
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.066284179688,
+                  "longitude": 105.74340820312,
+                  "vanityPageId": null
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tabKey": "jobs",
+            "productAttributionId": "977114232337111",
+            "canonicalUrl": null
+          },
+          "route_match_infos": [
+            {
+              "instanceParams": {
+                "categories": "legal",
+                "city_name": "category",
+                "job_types": null,
+                "keyword": null,
+                "max_wage": null,
+                "min_wage": null,
+                "notif_id": null,
+                "pinned_job_opening_id": null,
+                "radius": null,
+                "referer_mechanism": null,
+                "source": null,
+                "tab": null,
+                "waterfall_session_id": null,
+                "wage_currency": null,
+                "wage_type": null
+              },
+              "routeParams": {
+                "categories": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "city_name": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "job_types": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "keyword": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "max_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "min_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "notif_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "pinned_job_opening_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "radius": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "referer_mechanism": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "source": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "tab": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "waterfall_session_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "wage_currency": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "wage_type": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                }
+              },
+              "routePath": "/jobs/{?city_name}/{?categories}/{?job_types}/"
+            }
+          ]
+        }
+      },
+      "/jobs/category/military": {
+        "error": false,
+        "result": {
+          "type": "route_definition",
+          "exports": {
+            "actorID": "0",
+            "rootView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                  "465885177912346"
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.066284179688,
+                  "longitude": 105.74340820312,
+                  "vanityPageId": null
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tracePolicy": "comet.jobs.browser",
+            "meta": {
+              "title": "Vi\u1ec7c l\u00e0m thu\u1ed9c h\u1ea1ng m\u1ee5c Qu\u00e2n s\u1ef1",
+              "accessory": null
+            },
+            "prefetchable": true,
+            "timeSpentConfig": {
+              "has_job_search_session_id": true
+            },
+            "hostableView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                  "465885177912346"
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.066284179688,
+                  "longitude": 105.74340820312,
+                  "vanityPageId": null
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tabKey": "jobs",
+            "productAttributionId": "977114232337111",
+            "canonicalUrl": null
+          },
+          "route_match_infos": [
+            {
+              "instanceParams": {
+                "categories": "military",
+                "city_name": "category",
+                "job_types": null,
+                "keyword": null,
+                "max_wage": null,
+                "min_wage": null,
+                "notif_id": null,
+                "pinned_job_opening_id": null,
+                "radius": null,
+                "referer_mechanism": null,
+                "source": null,
+                "tab": null,
+                "waterfall_session_id": null,
+                "wage_currency": null,
+                "wage_type": null
+              },
+              "routeParams": {
+                "categories": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "city_name": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "job_types": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "keyword": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "max_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "min_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "notif_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "pinned_job_opening_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "radius": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "referer_mechanism": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "source": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "tab": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "waterfall_session_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "wage_currency": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "wage_type": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                }
+              },
+              "routePath": "/jobs/{?city_name}/{?categories}/{?job_types}/"
+            }
+          ]
+        }
+      },
+      "/jobs/category/manufacturing": {
+        "error": false,
+        "result": {
+          "type": "route_definition",
+          "exports": {
+            "actorID": "0",
+            "rootView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                  "415971163000321"
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.066284179688,
+                  "longitude": 105.74340820312,
+                  "vanityPageId": null
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tracePolicy": "comet.jobs.browser",
+            "meta": {
+              "title": "Vi\u1ec7c l\u00e0m thu\u1ed9c h\u1ea1ng m\u1ee5c S\u1ea3n xu\u1ea5t",
+              "accessory": null
+            },
+            "prefetchable": true,
+            "timeSpentConfig": {
+              "has_job_search_session_id": true
+            },
+            "hostableView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                  "415971163000321"
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.066284179688,
+                  "longitude": 105.74340820312,
+                  "vanityPageId": null
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tabKey": "jobs",
+            "productAttributionId": "977114232337111",
+            "canonicalUrl": null
+          },
+          "route_match_infos": [
+            {
+              "instanceParams": {
+                "categories": "manufacturing",
+                "city_name": "category",
+                "job_types": null,
+                "keyword": null,
+                "max_wage": null,
+                "min_wage": null,
+                "notif_id": null,
+                "pinned_job_opening_id": null,
+                "radius": null,
+                "referer_mechanism": null,
+                "source": null,
+                "tab": null,
+                "waterfall_session_id": null,
+                "wage_currency": null,
+                "wage_type": null
+              },
+              "routeParams": {
+                "categories": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "city_name": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "job_types": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "keyword": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "max_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "min_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "notif_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "pinned_job_opening_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "radius": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "referer_mechanism": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "source": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "tab": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "waterfall_session_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "wage_currency": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "wage_type": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                }
+              },
+              "routePath": "/jobs/{?city_name}/{?categories}/{?job_types}/"
+            }
+          ]
+        }
+      },
+      "/jobs/category/sports-entertainment-media": {
+        "error": false,
+        "result": {
+          "type": "route_definition",
+          "exports": {
+            "actorID": "0",
+            "rootView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                  "120213906649216"
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.066284179688,
+                  "longitude": 105.74340820312,
+                  "vanityPageId": null
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tracePolicy": "comet.jobs.browser",
+            "meta": {
+              "title": "Vi\u1ec7c l\u00e0m thu\u1ed9c h\u1ea1ng m\u1ee5c Th\u1ec3 thao, gi\u1ea3i tr\u00ed & truy\u1ec1n th\u00f4ng",
+              "accessory": null
+            },
+            "prefetchable": true,
+            "timeSpentConfig": {
+              "has_job_search_session_id": true
+            },
+            "hostableView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                  "120213906649216"
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.066284179688,
+                  "longitude": 105.74340820312,
+                  "vanityPageId": null
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tabKey": "jobs",
+            "productAttributionId": "977114232337111",
+            "canonicalUrl": null
+          },
+          "route_match_infos": [
+            {
+              "instanceParams": {
+                "categories": "sports-entertainment-media",
+                "city_name": "category",
+                "job_types": null,
+                "keyword": null,
+                "max_wage": null,
+                "min_wage": null,
+                "notif_id": null,
+                "pinned_job_opening_id": null,
+                "radius": null,
+                "referer_mechanism": null,
+                "source": null,
+                "tab": null,
+                "waterfall_session_id": null,
+                "wage_currency": null,
+                "wage_type": null
+              },
+              "routeParams": {
+                "categories": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "city_name": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "job_types": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "keyword": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "max_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "min_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "notif_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "pinned_job_opening_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "radius": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "referer_mechanism": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "source": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "tab": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "waterfall_session_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "wage_currency": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "wage_type": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                }
+              },
+              "routePath": "/jobs/{?city_name}/{?categories}/{?job_types}/"
+            }
+          ]
+        }
+      },
+      "/jobs/category/library-reference": {
+        "error": false,
+        "result": {
+          "type": "route_definition",
+          "exports": {
+            "actorID": "0",
+            "rootView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                  "1518100151728413"
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.066284179688,
+                  "longitude": 105.74340820312,
+                  "vanityPageId": null
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tracePolicy": "comet.jobs.browser",
+            "meta": {
+              "title": "Vi\u1ec7c l\u00e0m thu\u1ed9c h\u1ea1ng m\u1ee5c Th\u01b0 vi\u1ec7n & tra c\u1ee9u",
+              "accessory": null
+            },
+            "prefetchable": true,
+            "timeSpentConfig": {
+              "has_job_search_session_id": true
+            },
+            "hostableView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                  "1518100151728413"
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.066284179688,
+                  "longitude": 105.74340820312,
+                  "vanityPageId": null
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tabKey": "jobs",
+            "productAttributionId": "977114232337111",
+            "canonicalUrl": null
+          },
+          "route_match_infos": [
+            {
+              "instanceParams": {
+                "categories": "library-reference",
+                "city_name": "category",
+                "job_types": null,
+                "keyword": null,
+                "max_wage": null,
+                "min_wage": null,
+                "notif_id": null,
+                "pinned_job_opening_id": null,
+                "radius": null,
+                "referer_mechanism": null,
+                "source": null,
+                "tab": null,
+                "waterfall_session_id": null,
+                "wage_currency": null,
+                "wage_type": null
+              },
+              "routeParams": {
+                "categories": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "city_name": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "job_types": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "keyword": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "max_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "min_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "notif_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "pinned_job_opening_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "radius": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "referer_mechanism": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "source": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "tab": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "waterfall_session_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "wage_currency": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "wage_type": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                }
+              },
+              "routePath": "/jobs/{?city_name}/{?categories}/{?job_types}/"
+            }
+          ]
+        }
+      },
+      "/jobs/category/transportation": {
+        "error": false,
+        "result": {
+          "type": "route_definition",
+          "exports": {
+            "actorID": "0",
+            "rootView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                  "237770524512304"
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.066284179688,
+                  "longitude": 105.74340820312,
+                  "vanityPageId": null
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tracePolicy": "comet.jobs.browser",
+            "meta": {
+              "title": "Vi\u1ec7c l\u00e0m thu\u1ed9c h\u1ea1ng m\u1ee5c V\u1eadn t\u1ea3i",
+              "accessory": null
+            },
+            "prefetchable": true,
+            "timeSpentConfig": {
+              "has_job_search_session_id": true
+            },
+            "hostableView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                  "237770524512304"
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.066284179688,
+                  "longitude": 105.74340820312,
+                  "vanityPageId": null
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tabKey": "jobs",
+            "productAttributionId": "977114232337111",
+            "canonicalUrl": null
+          },
+          "route_match_infos": [
+            {
+              "instanceParams": {
+                "categories": "transportation",
+                "city_name": "category",
+                "job_types": null,
+                "keyword": null,
+                "max_wage": null,
+                "min_wage": null,
+                "notif_id": null,
+                "pinned_job_opening_id": null,
+                "radius": null,
+                "referer_mechanism": null,
+                "source": null,
+                "tab": null,
+                "waterfall_session_id": null,
+                "wage_currency": null,
+                "wage_type": null
+              },
+              "routeParams": {
+                "categories": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "city_name": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "job_types": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "keyword": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "max_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "min_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "notif_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "pinned_job_opening_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "radius": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "referer_mechanism": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "source": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "tab": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "waterfall_session_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "wage_currency": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "wage_type": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                }
+              },
+              "routePath": "/jobs/{?city_name}/{?categories}/{?job_types}/"
+            }
+          ]
+        }
+      },
+      "/jobs/category/cleaning-facilities-maintenance": {
+        "error": false,
+        "result": {
+          "type": "route_definition",
+          "exports": {
+            "actorID": "0",
+            "rootView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                  "686949011972898"
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.066284179688,
+                  "longitude": 105.74340820312,
+                  "vanityPageId": null
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tracePolicy": "comet.jobs.browser",
+            "meta": {
+              "title": "Vi\u1ec7c l\u00e0m thu\u1ed9c h\u1ea1ng m\u1ee5c V\u1ec7 sinh & b\u1ea3o tr\u00ec c\u01a1 s\u1edf v\u1eadt ch\u1ea5t",
+              "accessory": null
+            },
+            "prefetchable": true,
+            "timeSpentConfig": {
+              "has_job_search_session_id": true
+            },
+            "hostableView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                  "686949011972898"
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.066284179688,
+                  "longitude": 105.74340820312,
+                  "vanityPageId": null
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tabKey": "jobs",
+            "productAttributionId": "977114232337111",
+            "canonicalUrl": null
+          },
+          "route_match_infos": [
+            {
+              "instanceParams": {
+                "categories": "cleaning-facilities-maintenance",
+                "city_name": "category",
+                "job_types": null,
+                "keyword": null,
+                "max_wage": null,
+                "min_wage": null,
+                "notif_id": null,
+                "pinned_job_opening_id": null,
+                "radius": null,
+                "referer_mechanism": null,
+                "source": null,
+                "tab": null,
+                "waterfall_session_id": null,
+                "wage_currency": null,
+                "wage_type": null
+              },
+              "routeParams": {
+                "categories": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "city_name": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "job_types": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "keyword": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "max_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "min_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "notif_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "pinned_job_opening_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "radius": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "referer_mechanism": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "source": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "tab": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "waterfall_session_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "wage_currency": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "wage_type": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                }
+              },
+              "routePath": "/jobs/{?city_name}/{?categories}/{?job_types}/"
+            }
+          ]
+        }
+      },
+      "/jobs/category/construction": {
+        "error": false,
+        "result": {
+          "type": "route_definition",
+          "exports": {
+            "actorID": "0",
+            "rootView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                  "471625060541576"
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.066284179688,
+                  "longitude": 105.74340820312,
+                  "vanityPageId": null
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tracePolicy": "comet.jobs.browser",
+            "meta": {
+              "title": "Vi\u1ec7c l\u00e0m thu\u1ed9c h\u1ea1ng m\u1ee5c X\u00e2y d\u1ef1ng",
+              "accessory": null
+            },
+            "prefetchable": true,
+            "timeSpentConfig": {
+              "has_job_search_session_id": true
+            },
+            "hostableView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                  "471625060541576"
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.066284179688,
+                  "longitude": 105.74340820312,
+                  "vanityPageId": null
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tabKey": "jobs",
+            "productAttributionId": "977114232337111",
+            "canonicalUrl": null
+          },
+          "route_match_infos": [
+            {
+              "instanceParams": {
+                "categories": "construction",
+                "city_name": "category",
+                "job_types": null,
+                "keyword": null,
+                "max_wage": null,
+                "min_wage": null,
+                "notif_id": null,
+                "pinned_job_opening_id": null,
+                "radius": null,
+                "referer_mechanism": null,
+                "source": null,
+                "tab": null,
+                "waterfall_session_id": null,
+                "wage_currency": null,
+                "wage_type": null
+              },
+              "routeParams": {
+                "categories": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "city_name": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "job_types": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "keyword": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "max_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "min_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "notif_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "pinned_job_opening_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "radius": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "referer_mechanism": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "source": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "tab": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "waterfall_session_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "wage_currency": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "wage_type": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                }
+              },
+              "routePath": "/jobs/{?city_name}/{?categories}/{?job_types}/"
+            }
+          ]
+        }
+      },
+      "/jobs/112799402071944": {
+        "error": false,
+        "result": {
+          "type": "route_definition",
+          "exports": {
+            "actorID": "0",
+            "rootView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.066284179688,
+                  "longitude": 105.74340820312,
+                  "vanityPageId": "112799402071944"
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tracePolicy": "comet.jobs.browser",
+            "meta": {
+              "title": "T\u00ecm vi\u1ec7c l\u00e0m t\u1ea1i Ph\u00fac L\u00fd, Ha Noi, Vietnam",
+              "accessory": null
+            },
+            "prefetchable": true,
+            "timeSpentConfig": {
+              "has_job_search_session_id": true
+            },
+            "hostableView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.066284179688,
+                  "longitude": 105.74340820312,
+                  "vanityPageId": "112799402071944"
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tabKey": "jobs",
+            "productAttributionId": "977114232337111",
+            "canonicalUrl": null
+          },
+          "route_match_infos": [
+            {
+              "instanceParams": {
+                "categories": null,
+                "city_name": "112799402071944",
+                "job_types": null,
+                "keyword": null,
+                "max_wage": null,
+                "min_wage": null,
+                "notif_id": null,
+                "pinned_job_opening_id": null,
+                "radius": null,
+                "referer_mechanism": null,
+                "source": null,
+                "tab": null,
+                "waterfall_session_id": null,
+                "wage_currency": null,
+                "wage_type": null
+              },
+              "routeParams": {
+                "categories": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "city_name": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "job_types": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "keyword": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "max_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "min_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "notif_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "pinned_job_opening_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "radius": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "referer_mechanism": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "source": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "tab": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "waterfall_session_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "wage_currency": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "wage_type": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                }
+              },
+              "routePath": "/jobs/{?city_name}/{?categories}/{?job_types}/"
+            }
+          ]
+        }
+      },
+      "/jobs/109520185745095": {
+        "error": false,
+        "result": {
+          "type": "route_definition",
+          "exports": {
+            "actorID": "0",
+            "rootView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.1,
+                  "longitude": 105.733,
+                  "vanityPageId": "109520185745095"
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tracePolicy": "comet.jobs.browser",
+            "meta": {
+              "title": "T\u00ecm vi\u1ec7c l\u00e0m t\u1ea1i Ha Tri, Ha Noi, Vietnam",
+              "accessory": null
+            },
+            "prefetchable": true,
+            "timeSpentConfig": {
+              "has_job_search_session_id": true
+            },
+            "hostableView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.1,
+                  "longitude": 105.733,
+                  "vanityPageId": "109520185745095"
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tabKey": "jobs",
+            "productAttributionId": "977114232337111",
+            "canonicalUrl": null
+          },
+          "route_match_infos": [
+            {
+              "instanceParams": {
+                "categories": null,
+                "city_name": "109520185745095",
+                "job_types": null,
+                "keyword": null,
+                "max_wage": null,
+                "min_wage": null,
+                "notif_id": null,
+                "pinned_job_opening_id": null,
+                "radius": null,
+                "referer_mechanism": null,
+                "source": null,
+                "tab": null,
+                "waterfall_session_id": null,
+                "wage_currency": null,
+                "wage_type": null
+              },
+              "routeParams": {
+                "categories": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "city_name": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "job_types": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "keyword": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "max_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "min_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "notif_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "pinned_job_opening_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "radius": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "referer_mechanism": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "source": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "tab": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "waterfall_session_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "wage_currency": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "wage_type": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                }
+              },
+              "routePath": "/jobs/{?city_name}/{?categories}/{?job_types}/"
+            }
+          ]
+        }
+      },
+      "/jobs/111594832195285": {
+        "error": false,
+        "result": {
+          "type": "route_definition",
+          "exports": {
+            "actorID": "0",
+            "rootView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.1,
+                  "longitude": 105.767,
+                  "vanityPageId": "111594832195285"
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tracePolicy": "comet.jobs.browser",
+            "meta": {
+              "title": "T\u00ecm vi\u1ec7c l\u00e0m t\u1ea1i \u00c3?Ai Do, Ha Noi, Vietnam",
+              "accessory": null
+            },
+            "prefetchable": true,
+            "timeSpentConfig": {
+              "has_job_search_session_id": true
+            },
+            "hostableView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.1,
+                  "longitude": 105.767,
+                  "vanityPageId": "111594832195285"
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tabKey": "jobs",
+            "productAttributionId": "977114232337111",
+            "canonicalUrl": null
+          },
+          "route_match_infos": [
+            {
+              "instanceParams": {
+                "categories": null,
+                "city_name": "111594832195285",
+                "job_types": null,
+                "keyword": null,
+                "max_wage": null,
+                "min_wage": null,
+                "notif_id": null,
+                "pinned_job_opening_id": null,
+                "radius": null,
+                "referer_mechanism": null,
+                "source": null,
+                "tab": null,
+                "waterfall_session_id": null,
+                "wage_currency": null,
+                "wage_type": null
+              },
+              "routeParams": {
+                "categories": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "city_name": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "job_types": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "keyword": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "max_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "min_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "notif_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "pinned_job_opening_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "radius": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "referer_mechanism": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "source": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "tab": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "waterfall_session_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "wage_currency": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "wage_type": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                }
+              },
+              "routePath": "/jobs/{?city_name}/{?categories}/{?job_types}/"
+            }
+          ]
+        }
+      },
+      "/jobs/107412979294258": {
+        "error": false,
+        "result": {
+          "type": "route_definition",
+          "exports": {
+            "actorID": "0",
+            "rootView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.0833,
+                  "longitude": 105.7,
+                  "vanityPageId": "107412979294258"
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tracePolicy": "comet.jobs.browser",
+            "meta": {
+              "title": "T\u00ecm vi\u1ec7c l\u00e0m t\u1ea1i \u00c3?An Hoi, Ha Noi, Vietnam",
+              "accessory": null
+            },
+            "prefetchable": true,
+            "timeSpentConfig": {
+              "has_job_search_session_id": true
+            },
+            "hostableView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.0833,
+                  "longitude": 105.7,
+                  "vanityPageId": "107412979294258"
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tabKey": "jobs",
+            "productAttributionId": "977114232337111",
+            "canonicalUrl": null
+          },
+          "route_match_infos": [
+            {
+              "instanceParams": {
+                "categories": null,
+                "city_name": "107412979294258",
+                "job_types": null,
+                "keyword": null,
+                "max_wage": null,
+                "min_wage": null,
+                "notif_id": null,
+                "pinned_job_opening_id": null,
+                "radius": null,
+                "referer_mechanism": null,
+                "source": null,
+                "tab": null,
+                "waterfall_session_id": null,
+                "wage_currency": null,
+                "wage_type": null
+              },
+              "routeParams": {
+                "categories": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "city_name": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "job_types": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "keyword": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "max_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "min_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "notif_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "pinned_job_opening_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "radius": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "referer_mechanism": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "source": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "tab": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "waterfall_session_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "wage_currency": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "wage_type": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                }
+              },
+              "routePath": "/jobs/{?city_name}/{?categories}/{?job_types}/"
+            }
+          ]
+        }
+      },
+      "/jobs/116333121713587": {
+        "error": false,
+        "result": {
+          "type": "route_definition",
+          "exports": {
+            "actorID": "0",
+            "rootView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.05,
+                  "longitude": 105.7,
+                  "vanityPageId": "116333121713587"
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tracePolicy": "comet.jobs.browser",
+            "meta": {
+              "title": "T\u00ecm vi\u1ec7c l\u00e0m t\u1ea1i Son \u00c3?Ong, Ha Son Binh, Vietnam",
+              "accessory": null
+            },
+            "prefetchable": true,
+            "timeSpentConfig": {
+              "has_job_search_session_id": true
+            },
+            "hostableView": {
+              "allResources": [
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+                },
+                {
+                  "__jsr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__jsr": "JobsCometBrowserBaseRoot.react"
+                }
+              ],
+              "resource": {
+                "__jsr": "JobsCometBrowserFindJobsTabRoot.react"
+              },
+              "props": {
+                "categories": [
+                ],
+                "is_logged_out": true,
+                "location": {
+                  "radius": 96000,
+                  "latitude": 21.05,
+                  "longitude": 105.7,
+                  "vanityPageId": "116333121713587"
+                },
+                "wage_currency": "VND",
+                "job_types": [
+                ],
+                "tab": null,
+                "use_fpt_category": true
+              },
+              "entryPoint": {
+                "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              }
+            },
+            "tabKey": "jobs",
+            "productAttributionId": "977114232337111",
+            "canonicalUrl": null
+          },
+          "route_match_infos": [
+            {
+              "instanceParams": {
+                "categories": null,
+                "city_name": "116333121713587",
+                "job_types": null,
+                "keyword": null,
+                "max_wage": null,
+                "min_wage": null,
+                "notif_id": null,
+                "pinned_job_opening_id": null,
+                "radius": null,
+                "referer_mechanism": null,
+                "source": null,
+                "tab": null,
+                "waterfall_session_id": null,
+                "wage_currency": null,
+                "wage_type": null
+              },
+              "routeParams": {
+                "categories": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "city_name": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": true,
+                  "significant": true
+                },
+                "job_types": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "keyword": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "max_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "min_wage": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "notif_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "pinned_job_opening_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "radius": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "referer_mechanism": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "source": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "tab": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "waterfall_session_id": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": true
+                },
+                "wage_currency": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                },
+                "wage_type": {
+                  "legacyNames": [
+                  ],
+                  "default": null,
+                  "path": false,
+                  "significant": false
+                }
+              },
+              "routePath": "/jobs/{?city_name}/{?categories}/{?job_types}/"
+            }
+          ]
+        }
+      }
+    },
+    "sr_payload": {
+      "hsrp": {
+        "hsdp": {
+          "gkxData": {
+            "1099893": {
+              "result": false,
+              "hash": "AT5kly2LSZV_DKGRt0M"
+            },
+            "1951072": {
+              "result": true,
+              "hash": "AT7aEvzO1O_H_j8HSs8"
+            }
+          }
+        },
+        "hblp": {
+          "sr_revision": 1003881502,
+          "consistency": {
+            "rev": 1003881502
+          },
+          "rsrcMap": {
+            "BXW2d1Q": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3imYU4/yP/l/vi_VN/uSq3FCJINzi.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "fARqsDs": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3iUDp4/y_/l/vi_VN/08MR5fmqcoe.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "IZgu4IE": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yi/r/AavuzahrYun.js?_nc_x=Ij3Wp8lg5Kz",
+              "prelude": 1
+            },
+            "s5XSuDN": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3iaue4/y4/l/vi_VN/kacnEB0e3Ak.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "/bCS6OK": {
+              "type": "css",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yf/l/0,cross/78OGUvK8drd.css?_nc_x=Ij3Wp8lg5Kz",
+              "nonblocking": 1
+            },
+            "lInnNzM": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yA/r/X0l4c-DjKNw.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "P8qCCQ8": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yY/r/hSGsdoJ8Fyw.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "Q2sRT12": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3iRRX4/yZ/l/vi_VN/W1NZm0u9G7h.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "ozIkCLO": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/7M5HoUUL-mk.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "BlH2GGZ": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3ims-4/yC/l/vi_VN/xgDasFix4jT.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "pep3XGZ": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3ipHX4/yH/l/vi_VN/6XIIhyi9UBN.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "CijgrFy": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yK/r/saZOagEMNt0.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "PZjDqd9": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3ipZd4/yg/l/vi_VN/CUPpQLeHZm6.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "IAyB09p": {
+              "type": "css",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yQ/l/0,cross/is8b5nUY41G.css?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "9siZN5h": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3i10w4/yd/l/vi_VN/iKvu8_CoP7G.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "4O3PZ/S": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3ik8V4/yA/l/vi_VN/cDdxrDZE6UY.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "hv0U5nF": {
+              "type": "css",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yJ/l/0,cross/-zigdjEjO08.css?_nc_x=Ij3Wp8lg5Kz",
+              "nonblocking": 1
+            },
+            "nTw964U": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/UGhCrbJDei4.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "N1icGaR": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3iHG94/yO/l/vi_VN/UPbwD0191AJ.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "nrM4+X6": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3iGdD4/y8/l/vi_VN/64DJ-hAIFAc.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "okKWoXy": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3in1W4/yt/l/vi_VN/LdxmopLH7EJ.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "Zfo5IzT": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3ijR04/yj/l/vi_VN/S--KpM9jNSL.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "pYGQsjj": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3iXMQ4/y_/l/vi_VN/cQZiynsK4fw.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "lAgj7jo": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yv/r/s_09sYAI8rY.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "848oQsF": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yy/r/Mdztwn63UPa.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "Bxo8h2+": {
+              "type": "css",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yY/l/0,cross/d9Is22vb6Vf.css?_nc_x=Ij3Wp8lg5Kz",
+              "nonblocking": 1
+            },
+            "byzWyIs": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3ipZf4/yc/l/vi_VN/Pr4xzOl3qAa.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "dACclUx": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yf/r/mMMiTlFLXAc.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "oI0xS/s": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3iu0j4/yl/l/vi_VN/V4_bHbQ95IU.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "+BWW6dW": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3iWPy4/y3/l/vi_VN/LRXI680ELHg.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "/+E4ebs": {
+              "type": "css",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yK/l/0,cross/RKcreLOPyDT.css?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "CHIJH7x": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3i9ar4/yO/l/vi_VN/QuE4gaFZf2P.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "134sr1/": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3iNbE4/yO/l/vi_VN/ljeZI8242hr.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "vP3O/Po": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3iNWJ4/y3/l/vi_VN/WGJrrW3RUTH.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "Ebsrji6": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3i9EZ4/yL/l/vi_VN/5fZJi3zmYI4.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "HTTDyez": {
+              "type": "css",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3/ya/l/0,cross/nUXe83ROw8X.css?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "xR4+Gff": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3iqKm4/y-/l/vi_VN/Eu9VV3OJiLk.js?_nc_x=Ij3Wp8lg5Kz"
+            },
+            "9fkvOw9": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3iQfj4/yB/l/vi_VN/MUALsKNSUR7.js?_nc_x=Ij3Wp8lg5Kz"
+            }
+          },
+          "compMap": {
+            "JobsCometBrowserFindJobsTabRoot.react": {
+              "r": [
+                "BXW2d1Q",
+                "fARqsDs",
+                "IZgu4IE"
+              ],
+              "rdfds": {
+                "m": [
+                  "JobsCometBrowserListContainer.react"
+                ],
+                "r": [
+                  "s5XSuDN",
+                  "/bCS6OK",
+                  "lInnNzM",
+                  "P8qCCQ8",
+                  "Q2sRT12",
+                  "ozIkCLO",
+                  "BlH2GGZ",
+                  "pep3XGZ",
+                  "CijgrFy",
+                  "PZjDqd9",
+                  "IAyB09p",
+                  "9siZN5h",
+                  "4O3PZ/S",
+                  "hv0U5nF",
+                  "nTw964U",
+                  "N1icGaR",
+                  "nrM4+X6",
+                  "okKWoXy"
+                ]
+              },
+              "rds": {
+                "m": [
+                  "ContextualConfig",
+                  "BladeRunnerClient",
+                  "SkywalkerUtils",
+                  "CometConfirmationDialogImpl.react",
+                  "FleetBeaconSubscriptionLauncher",
+                  "CometRelayEF",
+                  "FbtLogging",
+                  "LynxAsyncCallbackFalcoEvent",
+                  "JobsCometJobOpeningCardMoreMenu.react",
+                  "CometSuspenseFalcoEvent",
+                  "IntlQtEventFalcoEvent",
+                  "BanzaiScuba_DEPRECATED",
+                  "DGWRequestStreamClient",
+                  "MqttLongPollingRunner"
+                ],
+                "r": [
+                  "Zfo5IzT",
+                  "pYGQsjj",
+                  "lAgj7jo",
+                  "848oQsF",
+                  "Bxo8h2+",
+                  "byzWyIs"
+                ]
+              },
+              "be": 1
+            },
+            "JobsCometBrowserFindJobsTabRoot.entrypoint": {
+              "r": [
+                "lInnNzM",
+                "PZjDqd9",
+                "dACclUx",
+                "IZgu4IE"
+              ],
+              "be": 1
+            },
+            "JobsCometBrowserBaseRoot.react": {
+              "r": [
+                "s5XSuDN",
+                "oI0xS/s",
+                "lInnNzM",
+                "P8qCCQ8",
+                "+BWW6dW",
+                "Q2sRT12",
+                "/+E4ebs",
+                "ozIkCLO",
+                "BlH2GGZ",
+                "Bxo8h2+",
+                "BXW2d1Q",
+                "CHIJH7x",
+                "134sr1/",
+                "vP3O/Po",
+                "PZjDqd9",
+                "IAyB09p",
+                "fARqsDs",
+                "9siZN5h",
+                "4O3PZ/S",
+                "Ebsrji6",
+                "hv0U5nF",
+                "HTTDyez",
+                "IZgu4IE",
+                "xR4+Gff",
+                "9fkvOw9",
+                "N1icGaR",
+                "nrM4+X6",
+                "okKWoXy"
+              ],
+              "rds": {
+                "m": [
+                  "ContextualConfig",
+                  "BladeRunnerClient",
+                  "SkywalkerUtils",
+                  "CometConfirmationDialogImpl.react",
+                  "FleetBeaconSubscriptionLauncher",
+                  "FbtLogging",
+                  "LynxAsyncCallbackFalcoEvent",
+                  "CometSuspenseFalcoEvent",
+                  "IntlQtEventFalcoEvent",
+                  "BanzaiScuba_DEPRECATED",
+                  "ODS",
+                  "DGWRequestStreamClient",
+                  "MqttLongPollingRunner"
+                ],
+                "r": [
+                  "Zfo5IzT",
+                  "pYGQsjj",
+                  "lAgj7jo",
+                  "848oQsF"
+                ]
+              },
+              "be": 1
+            }
+          }
+        }
+      },
+      "jsmods": {
+        "define": [
+          [
+            "cr:717822",
+            [
+              "TimeSliceSham"
+            ],
+            {
+              "__rc": [
+                "TimeSliceSham",
+                "Aa3r9WNtZj8y4o3lAOZj8o0e2Fl8IM1EB_lp-3UqB736cMswse3nCNJL1R7vsVeLDKMVdSjpMVGuqL5eYoKajWrio6A"
+              ]
+            },
+            -1
+          ],
+          [
+            "cr:986633",
+            [
+              "setTimeoutComet"
+            ],
+            {
+              "__rc": [
+                "setTimeoutComet",
+                "Aa3r9WNtZj8y4o3lAOZj8o0e2Fl8IM1EB_lp-3UqB736cMswse3nCNJL1R7vsVeLDKMVdSjpMVGuqL5eYoKajWrio6A"
+              ]
+            },
+            -1
+          ]
+        ],
+        "require": [
+          [
+            "JobsCometBrowserFindJobsTabRoot.entrypoint"
+          ],
+          [
+            "emptyFunction",
+            "thatReturns",
+            [
+              "RequireDeferredReference"
+            ],
+            [
+              [
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                },
+                {
+                  "__dr": "JobsCometBrowserFindJobsTabRoot.entrypoint"
+                }
+              ]
+            ]
+          ],
+          [
+            "RequireDeferredReference",
+            "unblock",
+            [
+            ],
+            [
+              [
+                "JobsCometBrowserFindJobsTabRoot.entrypoint"
+              ]
+            ]
+          ]
+        ]
+      },
+      "allResources": [
+        "IZgu4IE",
+        "lInnNzM",
+        "PZjDqd9",
+        "dACclUx"
+      ]
+    },
+    "log_roots": [
+      "JobsCometBrowserFindJobsTabRootJSRoot"
+    ]
+  },
+  "dtsgAsyncGetToken": null,
+  "dtsgToken": null
+}

@@ -1,0 +1,14 @@
+{
+  "SERVICE": {
+    "name": "TT_FB_JOBS",
+    "description": "Crawler facebook.com/jobs"
+  },
+  "DEV": {
+    "HTTP_PORT": 31111,
+    "REDIS_CONNECT": "redis://127.0.0.1:1000/15"
+  },
+  "PROD": {
+    "HTTP_PORT": 51111,
+    "REDIS_CONNECT": "redis://127.0.0.1:1000/1"
+  }
+}
